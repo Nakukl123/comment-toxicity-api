@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+logs/
+data/
+.ipynb_checkpoints/
+
+# The trained model lives in S3, not in git (downloaded on the server before docker build)
+model_store/*.keras
+model_store/model_meta.json
+model_store/tokenizer.json

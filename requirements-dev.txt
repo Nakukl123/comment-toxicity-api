@@ -1,0 +1,9 @@
+# Lightweight: CI runs the API tests with a fake model, so TensorFlow isn't needed here.
+fastapi==0.162.0
+httpx
+pytest
+numpy
+# Only needed to re-train:
+# pandas
+# scikit-learn
+# tensorflow-cpu==2.21.0
